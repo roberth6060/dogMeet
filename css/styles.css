@@ -228,6 +228,19 @@ p {
   color: #1e90ff;
 }
 
+.card {
+
+  height: auto;
+  min-height: 420px;
+  max-height: 420px;
+}
+
+.card .card-body .btn {
+  height: auto;
+ min-height: 50px !important;
+  max-height: 50px !important;
+}
+
 /* Media Query Breakpoint */
 @media (max-width: 993px) {
   .title-heading {
